@@ -10,7 +10,6 @@ namespace HttpRequestandResponse
     public partial class MainPage : PhoneApplicationPage
     {
         Uri uri; // Way to get URL using Uri class
-        ModelClass Value;
 
         public MainPage()
         {
