@@ -1,0 +1,2 @@
+Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows Vista SP2, Windows Server 2008 (Server Core Role not supported), Windows Server 2008 R2 (Server Core Role supported with SP1 or later; Itanium not supported)
+The .NET Framework does not support all versions of every platform. For a list of the supported versions, see .NET Framework System Requirements.
