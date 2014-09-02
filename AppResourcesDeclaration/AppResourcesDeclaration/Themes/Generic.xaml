@@ -1,0 +1,13 @@
+﻿<ResourceDictionary
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <SolidColorBrush Color="#FF0000" x:Key="RedColor"></SolidColorBrush>
+
+    <Style x:Key="TextBlockStyle1" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="Margin" Value="12,0"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+    </Style>
+
+</ResourceDictionary>
