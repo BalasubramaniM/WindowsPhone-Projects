@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Windows;
+
 namespace HttpRequestandResponse
 {
     public partial class MainPage : PhoneApplicationPage
@@ -31,6 +32,7 @@ namespace HttpRequestandResponse
                             using (StreamWriter writer = new StreamWriter(requestStream))
                             {
                                 // write value if you need using writer.Write() function
+                                // Best example - Photo Upload concept. Write your photo as bytes in this function and get response.
                                 writer.Flush();
                             }
                         }
