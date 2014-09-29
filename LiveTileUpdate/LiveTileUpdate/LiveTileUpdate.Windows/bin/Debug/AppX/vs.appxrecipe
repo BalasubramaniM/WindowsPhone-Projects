@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BALA</Machine>
+    <WindowsUser>Bala Subramani</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d010aef2-c480-4b95-9f10-526aa4936839</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E172D82721D3CF91841EB9B2ADE3A5CE1C270BF1A3BCFB06C61B20A21E1C5000</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d010aef2-c480-4b95-9f10-526aa4936839_1.0.0.0_neutral__pg5ht3jm52h66</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d010aef2-c480-4b95-9f10-526aa4936839_pg5ht3jm52h66!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d010aef2-c480-4b95-9f10-526aa4936839</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Bala Subramani</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-29T12:59:14.875</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\LiveTileUpdate.Windows.exe">
+      <PackagePath>LiveTileUpdate.Windows.exe</PackagePath>
+      <Modified>2014-09-29T12:59:14.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-29T06:40:05.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-29T06:39:47.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Shared\Assets\wide-picture.png">
+      <PackagePath>Assets\wide-picture.png</PackagePath>
+      <Modified>2014-09-29T05:24:14.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\Assets\movie-theater.jpg">
+      <PackagePath>Assets\movie-theater.jpg</PackagePath>
+      <Modified>2014-09-29T05:08:40.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-29T12:59:14.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\Themes\Styles.xbf">
+      <PackagePath>Themes\Styles.xbf</PackagePath>
+      <Modified>2014-09-29T12:53:58.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-09-29T12:59:14.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\LiveTileUpdate.Windows.xr.xml">
+      <PackagePath>LiveTileUpdate.Windows.xr.xml</PackagePath>
+      <Modified>2014-09-29T12:53:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-29T12:59:14.813</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

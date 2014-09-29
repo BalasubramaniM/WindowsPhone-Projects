@@ -1,0 +1,1 @@
+c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\LiveTileUpdate.WindowsPhone.csproj;neutral

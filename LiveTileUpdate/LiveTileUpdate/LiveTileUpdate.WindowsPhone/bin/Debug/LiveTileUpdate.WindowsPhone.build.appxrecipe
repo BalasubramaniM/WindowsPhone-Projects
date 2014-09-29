@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BALA</Machine>
+    <WindowsUser>Bala Subramani</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5c3ccb09-638a-4941-b618-bff07653b739</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\LiveTileUpdate.WindowsPhone.exe">
+      <PackagePath>LiveTileUpdate.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.Shared\Assets\wide-picture.png">
+      <PackagePath>Assets\wide-picture.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\Themes\Styles.xbf">
+      <PackagePath>Themes\Styles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\LiveTileUpdate.WindowsPhone.xr.xml">
+      <PackagePath>LiveTileUpdate.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\bala subramani\documents\visual studio 2013\Projects\LiveTileUpdate\LiveTileUpdate\LiveTileUpdate.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
