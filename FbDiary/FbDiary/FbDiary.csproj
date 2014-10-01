@@ -94,7 +94,6 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="LocalizedStrings.cs" />
-    <Compile Include="Model\SessionStorage.cs" />
     <Compile Include="Model\UserBasicInfo.cs" />
     <Compile Include="Model\UserStatusInfo.cs" />
     <Compile Include="Shared\AppConstants.cs" />
@@ -103,6 +102,7 @@
     <Compile Include="Shared\AppUrl.cs" />
     <Compile Include="Shared\BasePage.cs" />
     <Compile Include="ViewModel\ReadStatusViewModel.cs" />
+    <Compile Include="ViewModel\SessionStorage.cs" />
     <Compile Include="Views\FacebookLoginPage.xaml.cs">
       <DependentUpon>FacebookLoginPage.xaml</DependentUpon>
     </Compile>

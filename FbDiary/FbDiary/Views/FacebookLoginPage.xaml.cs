@@ -27,12 +27,10 @@ namespace FbDiary.Views
             this.Loaded += FacebookLoginPage_Loaded;
             BrowserInit();            
         }
-
         void FacebookLoginPage_Loaded(object sender, RoutedEventArgs e)
         {
             
         }
-
         private void BrowserInit()
         {
             Browser.Navigate(new Uri(AppUrl.BASE_URL_LOGIN));
@@ -183,7 +181,5 @@ namespace FbDiary.Views
             if (result != null)
                 App.UserBasicInfo = JsonConvert.DeserializeObject<UserBasicInfo>(result);
         }
-
-        
     }
 }

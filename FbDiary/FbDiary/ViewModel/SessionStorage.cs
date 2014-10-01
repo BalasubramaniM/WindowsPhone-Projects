@@ -13,14 +13,17 @@ namespace FbDiary.ViewModel
     class SessionStorage
     {
         List<UserStatusInfo> statusList = new List<UserStatusInfo>();
-        public static void SaveStatus(UserStatusInfo data)
+        /// <summary>
+        /// Save status in Isolated Storage
+        /// </summary>
+        public static void SaveStatus(List<Datum> list, String listFileName)
         {
             using (IsolatedStorageFile myStore = IsolatedStorageFile.GetUserStoreForApplication())
             {
                 if (!myStore.DirectoryExists(AppConstants.DiaryDB))
                     myStore.CreateDirectory(AppConstants.DiaryDB);
 
-                string fileName = AppConstants.DiaryDB + "\\" + AppConstants.DiaryStatusFolder;
+                string fileName = AppConstants.DiaryDB + "\\" + listFileName;
 
                 if (myStore.FileExists(fileName))
                     myStore.DeleteFile(fileName);
@@ -29,13 +32,43 @@ namespace FbDiary.ViewModel
                 {
                     using (IsolatedStorageFileStream myStream = new IsolatedStorageFileStream(fileName, FileMode.Create, myStore))
                     {
-
+                        using(StreamWriter writer = new StreamWriter(myStream))
+                        {
+                            writer.Write(list);
+                        }
                     }
                 }
             }
         }
-    }
-    class SessionStorage
-    {
+        /// <summary>
+        /// Load status from Isolated Storage
+        /// </summary>
+        public static List<Datum> LoadStatus(List<Datum> list, String listFileName)
+        {
+            List<Datum> listFinal = new List<Datum>();
+
+            using (IsolatedStorageFile myStore = IsolatedStorageFile.GetUserStoreForApplication())
+            {
+                if (!myStore.DirectoryExists(AppConstants.DiaryDB))
+                    myStore.CreateDirectory(AppConstants.DiaryDB);
+
+                string fileName = AppConstants.DiaryDB + "\\" + listFileName;
+
+                if (myStore.FileExists(fileName))
+                    myStore.DeleteFile(fileName);
+
+                if (!myStore.FileExists(fileName))
+                {
+                    using (IsolatedStorageFileStream myStream = new IsolatedStorageFileStream(fileName, FileMode.OpenOrCreate,myStore))
+                    {
+                        using (StreamReader reader = new StreamReader(myStream))
+                        {
+                            listFinal = list;
+                        }
+                    }
+                }
+            }
+            return listFinal;
+        }
     }
 }

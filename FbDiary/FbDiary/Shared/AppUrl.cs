@@ -36,7 +36,7 @@ namespace FbDiary.Shared
         private static readonly string GRAPH_ACCESSTOKEN_URL    = "oauth/access_token?client_id=";
         private static readonly string REDIRECT_URI             = "&redirect_uri=";
         private static readonly string BASE_SCOPE_URL           = "scope=email,user_location,friends_location,user_hometown,friends_hometown,publish_stream,offline_access,read_stream,user_status,user_photos,friends_photos,friends_status,user_checkins,friends_checkins,user_events,publish_checkins&display=wap";
-        private static readonly string USER_STATUS_SCOPE        = "feed.limit(50){description,caption,message,full_picture,privacy}";
+        private static readonly string USER_STATUS_SCOPE        = "feed.limit(50){description,likes,comments,caption,message,full_picture,privacy}";
         /// <summary>
         /// GET BASE URL CONNECT LINK
         /// </summary>

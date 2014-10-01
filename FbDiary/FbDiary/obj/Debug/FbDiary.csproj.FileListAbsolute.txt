@@ -20,4 +20,3 @@ c:\users\bala subramani\documents\visual studio 2013\Projects\FbDiary\FbDiary\ob
 c:\users\bala subramani\documents\visual studio 2013\Projects\FbDiary\FbDiary\obj\Debug\Views\FacebookLoginPage.g.cs
 C:\Users\Bala Subramani\Documents\Visual Studio 2013\Projects\FbDiary\FbDiary\Bin\Debug\Newtonsoft.Json.dll
 C:\Users\Bala Subramani\Documents\Visual Studio 2013\Projects\FbDiary\FbDiary\Bin\Debug\Newtonsoft.Json.xml
-C:\Users\Bala Subramani\Documents\Visual Studio 2013\Projects\FbDiary\FbDiary\obj\Debug\FbDiary.csprojResolveAssemblyReference.cache

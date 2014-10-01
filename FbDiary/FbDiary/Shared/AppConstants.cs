@@ -27,9 +27,29 @@ namespace FbDiary.Shared
         /// </summary>
         public static readonly string DiaryDB = "DIARYDB";
         /// <summary>
-        ///     Isolated Storage Database Status Folder Name
+        ///     Isolated Storage Database Very Happy Status List Name
         /// </summary>
-        public static readonly string DiaryStatusFolder = "Status";
+        public static readonly string VeryHappyStatusListName = "VeryHappyStatus";
+        /// <summary>
+        ///     Isolated Storage Database Happy Status List Name
+        /// </summary>
+        public static readonly string HappyStatusListName = "HappyStatus";
+        /// <summary>
+        ///     Isolated Storage Database Ok Status List Name
+        /// </summary>
+        public static readonly string OkStatusListName = "OkStatus";
+        /// <summary>
+        ///     Isolated Storage Database Sad Status List Name
+        /// </summary>
+        public static readonly string SadStatusListName = "SadStatus";
+        /// <summary>
+        ///     Isolated Storage Database Very Sad Status List Name
+        /// </summary>
+        public static readonly string VerySadStatusListName = "VerySadStatus";
+        /// <summary>
+        ///     Isolated Storage Database No Cateogry Status List Name
+        /// </summary>
+        public static readonly string NoCateogryStatusListName = "NoCategory";
         /// <summary>
         ///     Access Token of the user
         /// </summary>
