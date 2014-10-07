@@ -17,11 +17,11 @@ namespace FbDiary.Shared
         /// <summary>
         ///     The facebook app id (this is the ID given by facebook in the developer portal for your app)
         /// </summary>
-        public static readonly string AppID = "655372611248772";
+        public static readonly string AppID = "<<AppID>>";
         /// <summary>
         ///     The facebook app secret id (this is the ID given by facebook in the developer portal for your app)
         /// </summary>
-        public static readonly string AppSecretID = "81adb0a0241c66cbbb93166daf426fe3";
+        public static readonly string AppSecretID = "<<AppSecretID>>";
         /// <summary>
         ///     Isolated Storage Database Name
         /// </summary>
